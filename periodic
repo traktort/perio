@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html>
-<html lang="en">
+<html lang="sk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Periodic Table</title>
-    <link rel="stylesheet" href="styles.css"> 
-    <title>Periodic Table</title>
+    <title>Periodic Table</title> 
 </head>
 <body>
     <h1>Periodic Table of Elements</h1>
-    <div legend>
+    <ul class=legend>
         <span class="legend-item">Atomic Number</span>
         <span class="legend-item">Symbol</span>
         <span class="legend-item">Name</span>
         <span class="legend-item">Atomic Mass</span>
         <span class="legend-item">State at Room Temperature</span>
-        <span class="legend-item">Category</span>           
+        <span class="legend-item">Category</span>
+    </ul>         
     <div class="periodic-table">
-        <!-- Example of an element -->
         <div class="element" id="hydrogen">
             <span class="atomic-number">1</span>
             <span class="symbol">H</span>
             <span class="name">Hydrogen</span>
             <span class="atomic-mass">1.008</span>
-            
+            <span class="state">Gas</span>
+            <span class="category">Nonmetal</span>
+        <div class="element" id="helium">
+            <span class="atomic-number">2</span>
+            <span class="symbol">He</span>
+            <span class="name">Helium</span>
+            <span class="atomic-mass">4.0026</span>
+            <span class="state">Gas</span>
+            <span class="category">Noble Gas</span>
+        <div class="element" id="lithium">
+            <span class="atomic-number">3</span>
+            <span class="symbol">Li</span>
+            <span class="name">Lithium</span>
+            <span class="atomic-mass">6.94</span>
+            <span class="state">Solid</span>
+            <span class="category">Alkali Metal</span>
+        <div class="element" id="beryllium">
+            <span class="atomic-number">4</span>
+            <span class="symbol">Be</span>
+            <span class="name">Beryllium</span>
+            <span class="atomic-mass">9.0122</span>
+            <span class="state">Solid</span>
+            <span class="category">Alkaline Earth Metal</span>
+
         </div>
         <>
     </div>
