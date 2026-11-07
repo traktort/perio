@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <title>Periodic Table</title>
+</head>
+<body>
+    <h1>Periodic Table of Elements</h1>
+    <div legend>
+        <span class="legend-item">Atomic Number</span>
+        <span class="legend-item">Symbol</span>
+        <span class="legend-item">Name</span>
+        <span class="legend-item">Atomic Mass</span>
+        <span class="legend-item">State at Room Temperature</span>
+        <span class="legend-item">Category</span>           
+    <div class="periodic-table">
+        <!-- Example of an element -->
+        <div class="element" id="hydrogen">
+            <span class="atomic-number">1</span>
+            <span class="symbol">H</span>
+            <span class="name">Hydrogen</span>
+            <span class="atomic-mass">1.008</span>
+            
+        </div>
+        <>
+    </div>
+</body></html>
